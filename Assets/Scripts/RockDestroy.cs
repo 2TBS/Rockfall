@@ -9,7 +9,6 @@ public class RockDestroy : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
 	}
 	
 	// Update is called once per frame
@@ -19,6 +18,7 @@ public class RockDestroy : MonoBehaviour {
 
 	void OnCollisionEnter(Collision col) {
 		Debug.Log("collide");
+		
 		Instantiate(fragments, transform.position, transform.rotation);
 		Destroy(gameObject);
 	}
