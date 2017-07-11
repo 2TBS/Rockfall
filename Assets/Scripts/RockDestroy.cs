@@ -16,10 +16,10 @@ public class RockDestroy : MonoBehaviour {
 		
 	}
 
-	void OnCollisionEnter(Collision col) {
+	/*void OnCollisionEnter(Collision col) {
 		Debug.Log("collide");
 		
 		Instantiate(fragments, transform.position, transform.rotation);
 		Destroy(gameObject);
-	}
+	}*/
 }
